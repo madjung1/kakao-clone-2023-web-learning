@@ -3,9 +3,16 @@
     justify-content: space-between;
     padding: var(--horizontal-space);
     align-items: center;
-    padding-top: 30px;
+    padding-top: 65px;
 }
 .alt-header__title{
     font-weight: bold;
     font-size: 20px;
+}
+.alt-header__column:first-child{
+    width: 33%;
+}
+.alt-header__column:last-child{
+    width: 33%;
+    text-align: right;
 }
