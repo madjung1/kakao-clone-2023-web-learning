@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>setting</title>
+    <title>chat</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="chat-screen">
@@ -41,7 +41,7 @@
     <main class="main-screen main-chat">
         
         <div class="chat-timestamp">Thesday. january 19. 2024</div>
-        <div class="message-row">
+        <div class="message-row message-row--zero">
             <img src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/eblovemw-avatar_bCI8Z7y.jpg">
             <div class="message-row__content">
                 <div class="message__author">sucham</div>
@@ -60,38 +60,26 @@
                 </div>
             </div>
         </div>
+        <form class="reply">
+            <div class="reply__column">
+                <i class="fa-solid fa-plus fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message..." />
+                <i class="fa-regular fa-face-smile fa-lg reply-smile"></i>
+                <button>
+                    <i class="fa-solid fa-arrow-up fa-lg reply-arrow"></i>
+                </button>
+            </div>
+        </form>
+
+        <div id="no-mobile">
+            <span>your screen is too big</span>
+        </div>
+        
         <div></div>
     </main>
     
-
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn"><a class="nav__link" href="friends.html">
-                    <i class="fa-regular fa-user fa-2x"></i></i>
-            </a></li>
-            <li class="nav__btn"><a class="nav__link" href="chats.html">
-                <span class="nav__notification badge">1</span>
-                <i class="fa-regular fa-comment fa-2x"></i>
-            </a></li>
-            <li class="nav__btn"><a class="nav__link" href="find.html">
-                <i class="fa-solid fa-magnifying-glass fa-2x"></i>      
-            </a></li>
-            <li class="nav__btn"><a class="nav__link" href="more.html">
-                <span class="nav__notification nav__ellipsis"> </span>
-                <i class="fa-solid fa-ellipsis fa-2x"></i>              
-            </a></li>
-        </ul>
-    </nav>
-    <div class="hidden">
-        <i class="fa-solid fa-user fa-2x"></i>
-        <i class="fa-regular fa-user fa-2x"></i>
-        <i class="fa-regular fa-comment fa-2x"></i>
-        <i class="fa-solid fa-comment fa-2x"></i>
-        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-        <i class="fa-solid fa-magnifying-glass-plus fa-2x"></i>
-        <i class="fa-solid fa-ellipsis fa-2x"></i>
-        <i class="fa-solid fa-ellipsis" style="color: #ffffff;"></i>
-    </div>
     <script src="https://kit.fontawesome.com/d23f1fa0ce.js" crossorigin="anonymous"></script>
 </body>
 </html>
