@@ -1,0 +1,33 @@
+
+.Exclamation-mark{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 5px;
+}
+.suggestions{
+    border-top: var(--border-main);
+    
+}
+.suggestions span{
+    color: var(--font-gray);
+    font-size: 12px;
+}
+.suggestions h2{
+    padding: 25px 0;
+    font-weight: bold;
+}
+.user-component__text h4{
+    font-weight: bold;
+}
+.suggestions>.icon-raw{
+    justify-content: flex-start;
+}
+.suggestions>.icon-raw div{
+    margin-right: 20px;
+}

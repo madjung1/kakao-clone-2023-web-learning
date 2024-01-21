@@ -1,0 +1,18 @@
+.setting__object, .setting-user__object{
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.setting__object span, .setting-user__object span{
+    margin-left: 5px;
+}
+.setting__object-column{
+    display: flex;
+    justify-content: space-between;
+}
+.setting__object-column div:last-child{
+    opacity: 0.6;
+}
+.setting-user__list{
+    padding-top: 30px;
+    border-top: var(--border-main);
+}

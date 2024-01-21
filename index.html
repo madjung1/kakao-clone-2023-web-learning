@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcom to kokoa talk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <!--Rotate Icon-->
+            <span>61%</span>
+            <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <header class="welcom-header">
+        <h1 class="welcom-header__title">Welcom to Kokoa Clone</h1>
+        <p class="welcom-header__text">If you have a Kokoa Account, log in with your email or phone number</p>
+    </header>
+    <form action="friends.html" method="get" id="login-form"><!--get이라서 url에 정보가 남음-->
+        <input name="username" type="text" placeholder="Email of phone number" />
+        <input name="password" type="password" placeholder="Password" />
+        <input type="submit" value="Log in"/>
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <script src="https://kit.fontawesome.com/d23f1fa0ce.js" crossorigin="anonymous"></script>
+</body>
+</html>
